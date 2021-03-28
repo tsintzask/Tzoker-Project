@@ -7,6 +7,10 @@ This is my first "project" that has over 100 lines of code... I am sure the code
 but I am a student still learning so pls don't mind the bad code.. Let me know if you spot any mistakes in the code
 that can be fixed to make the program better :)
 
+TO DO LIST (ETA: Never)
+-Show the amount of money you would have won (and maybe the money you lost)
+-Add more input validation at the point the user enters the numbers
+
 '''
 
 
