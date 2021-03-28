@@ -13,7 +13,6 @@ TO DO LIST (ETA: Never)
 
 '''
 
-
 import random
 
 ERROR = [
@@ -27,6 +26,8 @@ for i in range(1,46):
 
 user_number_list = []
 random_number_list = []
+cash_won = 0
+cash_lost = 0
 
 def RandGen():
     global random_number_list
@@ -125,6 +126,8 @@ stats = {
 }
 
 
+
+
 # start of program
 
 AskUser()
@@ -144,20 +147,29 @@ for i in range(0,x):
 
     elif NumCheck() == 4 and usertzoker == randtzoker:
         stats['4p1'] += 1
+        cash_won += 2500
 
     elif NumCheck() == 4:
         stats['4p0'] += 1
+        cash_won += 50
 
     elif NumCheck() == 3 and usertzoker == randtzoker:
         stats['3p1'] += 1
+        cash_won += 50
 
     elif NumCheck() == 3:
         stats['3p0'] += 1
+        cash_won += 2
 
     elif usertzoker == randtzoker and NumCheck() == 2:
         stats['2p1'] += 1
+        cash_won += 2
 
     elif NumCheck() == 1 and usertzoker == randtzoker:
         stats['1p1'] += 1
+        cash_won += 1.5
+        
+    cash_lost += 0.5
 
 print(stats)
+print(f'you paid {cash_lost}€ and won {cash_won}€')
