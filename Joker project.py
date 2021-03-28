@@ -17,7 +17,6 @@ def RandGen():
     random_number_list = random.sample(possible_normal_numbers,5)
     random_number_list.sort()
     random_number_list.append(random.randint(1,20))
-    #return random_number_list
     # This function generates 5 random normal numbers
     # and one "tzoker" number for the "random_number_list"
 
