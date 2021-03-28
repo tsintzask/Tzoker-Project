@@ -1,3 +1,15 @@
+'''
+This program is simulating as many τζοκερ (greek lotto-like luck based game) as the user wants
+and prints the amount of times you won.. Maybe there are logical errors in there, I didn't really
+test this a lot
+
+This is my first "project" that has over 100 lines of code... I am sure the code can be improved
+but I am a student still learning so pls don't mind the bad code.. Let me know if you spot any mistakes in the code
+that can be fixed to make the program better :)
+
+'''
+
+
 import random
 
 ERROR = [
