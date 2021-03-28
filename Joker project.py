@@ -8,7 +8,7 @@ but I am a student still learning so pls don't mind the bad code.. Let me know i
 that can be fixed to make the program better :)
 
 TO DO LIST (ETA: Never)
--Show the amount of money you would have won (and maybe the money you lost)
+-S̶h̶o̶w̶ ̶t̶h̶e̶ ̶a̶m̶o̶u̶n̶t̶ ̶o̶f̶ ̶m̶o̶n̶e̶y̶ ̶y̶o̶u̶ ̶w̶o̶u̶l̶d̶ ̶h̶a̶v̶e̶ ̶w̶o̶n̶ ̶(̶a̶n̶d̶ ̶m̶a̶y̶b̶e̶ ̶t̶h̶e̶ ̶m̶o̶n̶e̶y̶ ̶y̶o̶u̶ ̶l̶o̶s̶t̶)̶  Done!
 -Add more input validation at the point the user enters the numbers
 
 '''
