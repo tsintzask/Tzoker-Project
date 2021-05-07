@@ -1,4 +1,8 @@
 '''
+!-THIS IS AN OLD VERSION-!
+!-CHECK THE JPI.py FILE FOR THE "REMAKE"-!
+
+
 This program is simulating as many τζοκερ (greek lotto-like luck based game) as the user wants
 and prints the amount of times you won.. Maybe there are logical errors in there, I didn't really
 test this a lot
