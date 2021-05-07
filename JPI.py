@@ -1,3 +1,11 @@
+'''
+This is an improved, new version of the tzoker project.
+It has (imo) cleaner code, and uses the pyinputplus module for proper inpu validation.
+There are probably improvements that can be made but I will take care of that the next time I am bored :P
+'''
+
+
+
 import random
 import pyinputplus as pyip
 
