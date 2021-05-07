@@ -2,6 +2,11 @@
 This is an improved, new version of the tzoker project.
 It has (imo) cleaner code, and uses the pyinputplus module for proper inpu validation.
 There are probably improvements that can be made but I will take care of that the next time I am bored :P
+
+--TODO--
+-Add more statistics stuff (Amount of money lost and won, how long it would take for the actual Tzoker to run all these draws, and more random stuff
+-Add comments explaining what the hell the code is doing, for my future self :p
+-Thats all for now
 '''
 
 
@@ -17,13 +22,9 @@ def FindDuplicates(List):
 
 
 def getRandomNumbers():
-    RandomNumbers = random.sample(
-        range(1, 46), 5
-    )  # Makes a list with 5 numbers between 1 and 45
+    RandomNumbers = random.sample(range(1, 46), 5)  # Makes a list with 5 numbers between 1 and 45
     RandomNumbers.sort()  # Then sorts the list
-    RandomNumbers.append(
-        random.randint(1, 21)
-    )  # and adds a number between 1 and 20 at the end
+    RandomNumbers.append(random.randint(1, 21))  # and adds a number between 1 and 20 at the end
     return RandomNumbers
 
 
