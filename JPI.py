@@ -13,6 +13,7 @@ There are probably improvements that can be made but I will take care of that th
 
 import random
 import pyinputplus as pyip
+import time
 
 
 def FindDuplicates(List):
@@ -68,6 +69,7 @@ stats = {"1p1": 0, "2p1": 0, "3p0": 0, "3p1": 0, "4p0": 0, "4p1": 0, "5p0": 0, "
 
 print("How many times will you try?")
 AmountOfAttempts = pyip.inputInt(min=1)
+start = time.time()
 for i in range(1, AmountOfAttempts + 1):
     RandomNumberList = getRandomNumbers()
     RandTzoker = RandomNumberList[5]
@@ -98,3 +100,4 @@ for i in range(1, AmountOfAttempts + 1):
         stats["1p1"] += 1
 
 print(stats)
+print("Elapsed time:",time.time() - start,"seconds")
